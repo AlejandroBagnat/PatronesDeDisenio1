@@ -1,1 +1,18 @@
 
+crear una app de consola. que reciba argumentos, segun esos argumentos, realizar una accion.
+
+ejemplo.
+
+operar crearOffer APPLE 100 20
+operar crearBid GOOGLE 200 10
+operar cancelOffer ID 
+operar cancelBid ID
+
+ID debe ser GUID.
+
+java.util.GUID.newGuid()
+System.Guid.newGuid()
+
+El id tiene, 16 Bytes
+representacion es en hexa 32 Bytes + Cuatro guiones. 36.
+
