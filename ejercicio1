@@ -21,3 +21,6 @@ UUID o GUID
 El id tiene, 16 Bytes
 representacion es en hexa 32 Bytes + Cuatro guiones. 36.
 
+Que pasa si, quiero: Las acciones solo puedan poner efertas o demandas sobre o bajo un nivel de precio.
+
+
