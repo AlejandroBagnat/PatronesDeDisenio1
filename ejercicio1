@@ -8,11 +8,16 @@ operar crearBid GOOGLE 200 10
 operar cancelOffer ID 
 operar cancelBid ID
 
-ID debe ser GUID.
+Validaciones.
 
-java.util.GUID.newGuid()
-System.Guid.newGuid()
+en crearOffer/Bid se debe validar que se reciban "nombre de la compania", cantidad, precio
+en cancelOffer/Bid se debe validar que el ID tenga 36 caracteres.
 
+Lista de empresas disponibles
+
+VALE, AMZN, AAPL, MSFT, TS
+
+UUID o GUID
 El id tiene, 16 Bytes
 representacion es en hexa 32 Bytes + Cuatro guiones. 36.
 
